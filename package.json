@@ -1,0 +1,28 @@
+{
+  "name": "nativescript-dev-version",
+  "version": "0.1.0",
+  "description": "Installs nativescript hooks to maintain native app version (AndroidManifest.xml and Info.plist)'",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node postinstall.js",
+    "preuninstall": "node preuninstall.js",
+    "test": "exit 0"
+  },
+  "author": "Javier Castro",
+  "license": "ISC",
+  "nativescript": {
+    "hooks": [
+      {
+        "type": "after-prepare",
+        "script": "lib/after-prepare.js",
+        "inject": true
+      }
+    ]
+  },
+  "dependencies": {
+    "androidmanifest": "^2.0.0",
+    "bluebird": "^3.4.7",
+    "nativescript-hook": "^0.2.1",
+    "plist": "^2.0.1"
+  }
+}
