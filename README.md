@@ -1,4 +1,4 @@
-# Nativescript hook plugin to maintain native app version and bump version code / bundle version
+# Nativescript hook plugin to maintain native app version
 
 This plugin takes the `version` property from `package.json` (either `./package.json` or `./app/package.json`) and puts on the specific platform resources: `AndroidManifest.xml` file for the Android sources, and `Info.plist` for iOS sources.
 
