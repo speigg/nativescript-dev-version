@@ -4,6 +4,8 @@ This plugin takes the `version` and `versionNumber` properties from `package.jso
 
 This plugin is mainly a fork of [jacargentina/nativescript-dev-version](https://github.com/jacargentina/nativescript-dev-version), with the great ideas from [speigg/nativescript-dev-version](https://github.com/speigg/nativescript-dev-version/tree/patch-1) and [simplec-dev/nativescript-dev-version](https://github.com/simplec-dev/nativescript-dev-version).
 
+Compatible with NS 6.
+
 ## How to use
 
 ```
