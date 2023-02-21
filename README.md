@@ -40,6 +40,15 @@ or:
 
 When running `tns prepare ...` the hooks will take care of the native resources.
 
+
+> **Warning**
+> Remove/comment the lines in your `App_Resources/Android/app.gradle`:
+> ```
+>     // Version Information
+>     // versionCode 1
+>     // versionName "1.0.0"
+> ```
+
 On iOS, your `Info.plist` will get:
 
 ```
